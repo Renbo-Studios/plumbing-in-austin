@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html class="no-js" lang="en">
     <head>
         <title>Plumbing In Austin | Expert Plumbers in Austin, Texas</title>
@@ -7,7 +7,7 @@
         <meta name="author" content="plumbinginaustin">
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta name="description" content="Plumbing In Austin offers expert plumbing repair, new installation, and maintenance services for residential and commercial properties in Austin, Texas. Get a free quote today!">
-        <meta name="keywords" content="plumbing austin, plumber austin, plumbing company austin, new plumbing austin, plumbing services austin">
+        <meta name="keywords" content="plumbing austin, plumbing repair austin, plumber austin, plumbing company austin, new plumbing austin, plumbing services austin">
         <!-- favicon icon -->
         <link rel="shortcut icon" href="images/favicon.png">
         <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
@@ -49,8 +49,8 @@
                             <span class="navbar-toggler-line"></span>
                             <span class="navbar-toggler-line"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav"> 
-                            <ul class="navbar-nav"> 
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
                                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
@@ -58,9 +58,9 @@
                         </div>
                     </div>
                     <div class="col-auto col-lg-2 text-end">
-                        <div class="header-icon"> 
-                            
-                        </div>  
+                        <div class="header-icon">
+
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -72,15 +72,15 @@
             <div class="bg-gradient-black-green position-absolute left-0px top-0px h-100 w-100 z-index-minus-1"></div>
             <div class="container h-100">
                 <div class="row align-items-center h-100">
-                    <div class="col-lg-6 col-md-9 position-relative z-index-1 d-flex flex-column justify-content-center h-100">  
+                    <div class="col-lg-6 col-md-9 position-relative z-index-1 d-flex flex-column justify-content-center h-100">
                         <div class="fs-120 lg-fs-100 text-dark-gray lh-100 fw-500 mb-6 ls-minus-5px fancy-text-style-4" data-anime='{ "el": "childs", "opacity": [0, 1], "translateX": [-100, 0], "staggervalue": 300, "duration": 1000, "easing": "easeOutCubic" }'>
-                            <span class="d-inline-block">Expert</span>
+                            <span class="d-inline-block">Urgent</span>
                             <span class="fw-700 d-inline-block" data-fancy-text='{ "effect": "wave", "string": ["Plumbing", "Solutions", "Repairs"], "duration": 4000 }'></span>
                         </div>
-                        <div class="fs-20 lh-34 xs-fs-19 mb-35px xs-mb-20px w-85 lg-w-95 sm-w-100 ls-minus-05px" data-anime='{ "opacity": [0, 1], "translateX": [-100, 0], "duration": 1000, "delay": 1000, "easing": "easeOutCubic" }'>Providing top-quality plumbing solutions across Austin and Travis County. Trust our certified experts for durable and reliable pipe installations and repairs.</div>
+                        <div class="fs-20 lh-34 xs-fs-19 mb-35px xs-mb-20px w-85 lg-w-95 sm-w-100 ls-minus-05px" data-anime='{ "opacity": [0, 1], "translateX": [-100, 0], "duration": 1000, "delay": 1000, "easing": "easeOutCubic" }'>Providing top-quality plumbing solutions across Austin and surrounding areas. Trust our certified experts for durable and reliable plumbing installations and repairs.</div>
                         <div data-anime='{ "el": "childs", "opacity": [0, 1], "translateX": [-100, 0], "staggervalue": -200, "duration": 1000, "delay": 1500, "easing": "easeOutCubic" }'>
                             <a href="#quoteModal" class="popup-with-form btn btn-extra-large btn-dark-gray btn-hover-animation-switch btn-round-edge btn-box-shadow me-20px fw-400 xs-mt-10px xs-mb-10px">
-                                <span> 
+                                <span>
                                     <span class="btn-text">Get a Free Quote</span>
                                     <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
@@ -88,7 +88,7 @@
                             </a>
                             <a href="javascript:void(0)" onclick="Tawk_API.toggle()" class="btn btn-extra-large btn-white btn-round-edge btn-box-shadow btn-round-edge fw-600 xs-mt-10px xs-mb-10px">Instant Reply Chat</a>
                             </div>
-                        <div class="row w-100 position-absolute md-position-relative bottom-0 mb-14 md-mb-0 md-mt-40px sm-mt-30px xs-mt-20px align-items-center" data-anime='{ "el": "childs", "opacity": [0, 1], "staggervalue": -200, "translateX": [-100, 0], "duration": 1000, "delay": 1700, "easing": "easeOutQuad" }'> 
+                        <div class="row w-100 position-absolute md-position-relative bottom-0 mb-14 md-mb-0 md-mt-40px sm-mt-30px xs-mt-20px align-items-center" data-anime='{ "el": "childs", "opacity": [0, 1], "staggervalue": -200, "translateX": [-100, 0], "duration": 1000, "delay": 1700, "easing": "easeOutQuad" }'>
                             <div class="col-xl-5 col-sm-6 icon-with-text-style-08 xs-mb-15px">
                                 <div class="feature-box feature-box-left-icon-middle overflow-hidden">
                                     <div class="feature-box-icon feature-box-icon-rounded w-30px h-30px rounded-circle bg-jungle-green me-10px">
@@ -97,7 +97,7 @@
                                     <div class="feature-box-content last-paragraph-no-margin">
                                         <span class="d-inline-block fs-17 fw-500 text-dark-gray">Fast Service</span>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="col-xl-5 col-sm-6 icon-with-text-style-08">
                                 <div class="feature-box feature-box-left-icon-middle overflow-hidden">
@@ -107,20 +107,20 @@
                                     <div class="feature-box-content last-paragraph-no-margin">
                                         <span class="d-inline-block fs-17 fw-500 text-dark-gray">Affordable</span>
                                     </div>
-                                </div> 
-                            </div> 
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 col-md-3 align-self-end d-none d-md-inline-block">
                         <div class="position-absolute right-0px bottom-minus-90px xxl-bottom-minus-30px md-bottom-minus-35px md-right-minus-250px lg-right-minus-150px w-50 xl-w-55 lg-w-65 md-w-75 overflow-hidden">
-                            <img src="images/austin-skyline.jpg"  alt="Austin Skyline" style="width: 80%; height: 50rem; object-fit: cover;" data-anime='{ "opacity": [0, 1], "translateX": [100, 0], "duration": 1000, "delay": 200, "easing": "easeOutQuad" }'>
+                            <img src="images/austin-plumbing.jpg"  alt="Austin Plumbing" style="width: 80%; height: 50rem; object-fit: cover;" data-anime='{ "opacity": [0, 1], "translateX": [100, 0], "duration": 1000, "delay": 200, "easing": "easeOutQuad" }'>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </section>
         <!-- end banner -->
-        <!-- start section --> 
+        <!-- start section -->
         <section class="pb-0">
             <div class="container">
                 <div class="row mb-30px justify-content-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
@@ -128,20 +128,20 @@
                         <span class="fs-22 mb-0 text-dark-gray fw-500 ls-minus-1px">Trusted by homeowners and businesses in Austin</span>
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!-- end section -->
         <!-- start section -->
-        <section class="half-section overlap-height position-relative overflow-hidden" id="services"> 
+        <section class="half-section overlap-height position-relative overflow-hidden" id="services">
             <div class="container overlap-gap-section">
                 <div class="row align-items-center justify-content-md-center">
-                    <div class="col-lg-6 col-md-10 position-relative md-mb-50px sm-mb-40px"> 
+                    <div class="col-lg-6 col-md-10 position-relative md-mb-50px sm-mb-40px">
                         <figure class="position-relative m-0 text-center" data-anime='{ "effect": "slide", "color": "#fff2ef", "direction":"lr", "easing": "easeOutQuad", "delay":50}'>
-                            <img src="images/pipe-repair.jpg" alt="Plumbing in Austin">
+                            <img src="images/plumbing-repair.jpg" alt="Plumbing in Austin">
                         </figure>
                     </div>
-                    <div class="col-lg-5 offset-lg-1 col-md-12" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'> 
+                    <div class="col-lg-5 offset-lg-1 col-md-12" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                         <span class="fs-15 text-uppercase text-base-color fw-600 ls-1px mb-15px d-block">About PlumbingInAustin</span>
                         <h3 class="fw-700 text-dark-gray ls-minus-1px fancy-text-style-4">Reliable Plumbing Solutions for Every Home</h3>
                         <div class="row mb-9">
@@ -167,9 +167,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <a href="about.html" class="btn btn-large btn-dark-gray btn-hover-animation-switch btn-round-edge btn-box-shadow me-30px">
-                            <span> 
+                            <span>
                                 <span class="btn-text">Learn more</span>
                                 <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
                                 <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
@@ -180,21 +180,21 @@
                                 <span class="btn-text">Our services</span>
                                 <span class="btn-icon"><i class="fas fa-caret-right"></i></span>
                                 <span class="btn-icon"><i class="fas fa-caret-right"></i></span>
-                            </span> 
+                            </span>
                         </a>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </section>
         <!-- end section -->
         <!-- start section -->
-        
+
         <!-- end section -->
         <!-- start section -->
-        <section> 
+        <section>
             <div class="container">
-                <div class="row align-items-center mb-6 xs-mb-12 justify-content-md-center"> 
-                    <div class="col-xl-5 col-lg-6 col-md-12 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'> 
+                <div class="row align-items-center mb-6 xs-mb-12 justify-content-md-center">
+                    <div class="col-xl-5 col-lg-6 col-md-12 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                         <span class="fs-15 text-uppercase text-base-color fw-600 mb-15px d-block ls-1px">Our Plumbing Process</span>
                         <h3 class="fw-700 mb-20px text-dark-gray ls-minus-1px">Delivering Excellence in Every Step.</h3>
                         <div class="row justify-content-center mb-30px">
@@ -252,7 +252,7 @@
                             </div>
                         </div>
                         <a href="#services" class="btn btn-large btn-dark-gray btn-hover-animation-switch btn-round-edge btn-box-shadow me-30px">
-                            <span> 
+                            <span>
                                 <span class="btn-text">Our Services</span>
                                 <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
                                 <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
@@ -263,57 +263,57 @@
                                 <span class="btn-text">View Our Portfolio</span>
                                 <span class="btn-icon"><i class="fas fa-caret-right"></i></span>
                                 <span class="btn-icon"><i class="fas fa-caret-right"></i></span>
-                            </span> 
+                            </span>
                         </a>
-                    </div> 
-                    <div class="col-lg-6 offset-xl-1 col-md-10 position-relative"> 
+                    </div>
+                    <div class="col-lg-6 offset-xl-1 col-md-10 position-relative">
                         <figure class="position-relative m-0 text-center" data-anime='{ "effect": "slide", "color": "#fff2ef", "direction":"rl", "easing": "easeOutQuad", "delay":50}'>
-                            <img src="images/pipe-repair.jpg" alt="Pipe repair in Austin">
+                            <img src="images/plumbing-repair.jpg" alt="Plumbing repair in Austin">
                         </figure>
                     </div>
                 </div>
                 <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 justify-content-center counter-style-04">
                     <div class="col last-paragraph-no-margin text-center sm-mb-40px">
-                        <h3 class="vertical-counter d-inline-flex alt-font text-dark-gray fw-700 ls-minus-3px m-0" data-text="+" data-to="340"><sup class="text-jungle-green top-0"><i class="fas fa-arrow-up icon-extra-medium"></i></sup></h3>
+                        <h3 class="vertical-counter d-inline-flex alt-font text-dark-gray fw-700 ls-minus-3px m-0" data-text="+" data-to="150"><sup class="text-jungle-green top-0"><i class="fas fa-arrow-up icon-extra-medium"></i></sup></h3>
                         <p>Projects Completed</p>
                     </div>
                     <div class="col last-paragraph-no-margin text-center sm-mb-40px">
-                        <h3 class="vertical-counter d-inline-flex alt-font text-dark-gray fw-700 ls-minus-3px m-0" data-text="+" data-to="270"><sup class="text-jungle-green top-0"><i class="fas fa-arrow-up icon-extra-medium"></i></sup></h3>
+                        <h3 class="vertical-counter d-inline-flex alt-font text-dark-gray fw-700 ls-minus-3px m-0" data-text="+" data-to="100"><sup class="text-jungle-green top-0"><i class="fas fa-arrow-up icon-extra-medium"></i></sup></h3>
                         <p>Happy Clients</p>
-                    </div> 
+                    </div>
                     <div class="col last-paragraph-no-margin text-center xs-mb-40px">
-                        <h3 class="vertical-counter d-inline-flex alt-font text-dark-gray fw-700 ls-minus-3px m-0" data-text="+" data-to="25"><sup class="text-jungle-green top-0"><i class="fas fa-arrow-up icon-extra-medium"></i></sup></h3>
+                        <h3 class="vertical-counter d-inline-flex alt-font text-dark-gray fw-700 ls-minus-3px m-0" data-text="+" data-to="10"><sup class="text-jungle-green top-0"><i class="fas fa-arrow-up icon-extra-medium"></i></sup></h3>
                         <p>Years of Experience</p>
-                    </div> 
+                    </div>
                     <div class="col last-paragraph-no-margin text-center">
                         <h3 class="vertical-counter d-inline-flex alt-font text-dark-gray fw-700 ls-minus-3px m-0" data-text="%" data-to="100"><sup class="text-jungle-green top-0"><i class="fas fa-arrow-up icon-extra-medium"></i></sup></h3>
                         <p>Satisfaction Rate</p>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </section>
         <!-- end section -->
         <!-- start section -->
-        
+
         <!-- end section -->
         <!-- start section -->
         <section class="pt-0 pb-2 sm-pb-6 overflow-hidden">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-5 text-center text-lg-end md-mb-30px" data-anime='{ "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <h6 class="text-dark-gray fw-600 mb-0 ls-minus-1px">270+ Happy customers</h6>
+                        <h6 class="text-dark-gray fw-600 mb-0 ls-minus-1px">100+ Happy customers</h6>
                     </div>
                     <div class="col-lg-2 text-center md-mb-25px" data-anime='{ "translateX": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                         <img src="images/google-reviews.png" alt="Google Reviews">
                     </div>
-                    <div class="col-lg-5 text-center text-lg-start" data-anime='{ "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'> 
+                    <div class="col-lg-5 text-center text-lg-start" data-anime='{ "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                         <div class="review-star-icon fs-22 d-inline-block align-middle me-15px">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
                         </div>
                         <h6 class="text-dark-gray fw-600 mb-0 d-inline-block align-middle ls-minus-1px"><span class="text-decoration-line-bottom-medium fw-700">4.8</span> Rating</h6>
                     </div>
                 </div>
-            </div>  
+            </div>
         </section>
         <!-- end section -->
         <!-- start section -->
@@ -330,10 +330,10 @@
                                             <div class="border-radius-4px last-paragraph-no-margin border border-color-extra-medium-gray">
                                                 <div class="d-flex align-items-center ps-45px pe-45px pt-35px pb-35px xl-p-25px">
                                                     <img class="rounded-circle w-110px md-w-75px h-110px md-h-75px me-25px" src="https://randomuser.me/api/portraits/men/1.jpg" alt="Client Testimonial Image" />
-                                                    <p>PlumbingInAustin provided exceptional service! Our new plumbing looks fantastic and the team was professional and efficient.</p>
+                                                    <p>PlumbingInAustin provided exceptional service! Our new plumbing works fantastic and the team was professional and efficient.</p>
                                                 </div>
                                                 <div class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px xl-ps-25px xl-pe-25px">
-                                                    <span class="fw-600 text-dark-gray d-inline-block xs-fs-15">John Smith, Homeowner</span>
+                                                    <span class="fw-600 text-dark-gray d-inline-block xs-fs-15">John Doe, Homeowner</span>
                                                     <div class="review-star-icon float-end fs-18 xs-fs-15">
                                                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                                     </div>
@@ -366,7 +366,7 @@
                                             <div class="border-radius-4px last-paragraph-no-margin border border-color-extra-medium-gray">
                                                 <div class="d-flex align-items-center ps-45px pe-45px pt-35px pb-35px xl-p-25px">
                                                     <img class="rounded-circle w-110px md-w-75px h-110px md-h-75px me-25px" src="https://randomuser.me/api/portraits/men/3.jpg" alt="Client Testimonial Image" />
-                                                    <p>Professional, reliable, and great communication throughout the entire pipe replacement process. Very satisfied with the results!</p>
+                                                    <p>Professional, reliable, and great communication throughout the entire plumbing replacement process. Very satisfied with the results!</p>
                                                 </div>
                                                 <div class="border-top border-color-extra-medium-gray pt-15px pb-15px ps-45px pe-45px xl-ps-25px xl-pe-25px">
                                                     <span class="fw-600 text-dark-gray d-inline-block xs-fs-15">Peter Jones, Property Manager</span>
@@ -383,7 +383,7 @@
                         </div>
                         <!-- start slider pagination -->
                         <!--<div class="swiper-pagination slider-four-slide-pagination-1 swiper-pagination-style-2 swiper-pagination-clickable swiper-pagination-bullets"></div>-->
-                        <!-- end slider pagination --> 
+                        <!-- end slider pagination -->
                     </div>
                 </div>
                 <div class="row">
@@ -392,11 +392,11 @@
                         <div class="text-dark-gray fs-18 d-block d-sm-inline-block">Let's work together. <a href="contact.html" class="text-dark-gray ls-minus-05px text-decoration-line-bottom fw-600">Got a project in mind?</a></div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </section>
         <!-- end section -->
         <!-- start footer -->
-        <footer class="bg-dark-gray background-position-center-top" style="background-image: url('images/demo-marketing-footer-dot.svg')"> 
+        <footer class="bg-dark-gray background-position-center-top" style="background-image: url('images/demo-marketing-footer-dot.svg')">
             <div class="container overlap-section">
                 <div class="row g-0 justify-content-center align-items-center bg-base-color border-radius-6px ps-7 pe-7 pt-4 pb-4 lg-p-30px sm-p-20px mb-7">
                     <div class="col-lg-6 col-md-9 text-center text-lg-start md-mb-20px">
@@ -415,28 +415,28 @@
                     </div>
                 </div>
             </div>
-            <div class="container footer-dark text-center text-sm-start"> 
+            <div class="container footer-dark text-center text-sm-start">
                 <div class="row mb-5 sm-mb-30px">
                     <!-- start footer column -->
                     <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column last-paragraph-no-margin md-mb-35px">
                         <a href="index.html" class="footer-logo mb-25px xs-mb-20px d-inline-block">
                             <span class="footer-logo-text">PlumbingInAustin</span>
                         </a>
-                        
+
                     </div>
-                    <!-- end footer column -->  
-                    
-                    
-                </div> 
+                    <!-- end footer column -->
+
+
+                </div>
                 <div class="row align-items-center footer-bottom border-top border-color-transparent-white-light pt-30px g-0">
                     <!-- start footer menu -->
-                    <div class="col-lg-8 ps-0 text-center text-lg-start md-mb-10px"> 
-                        <ul class="footer-navbar fs-15 lh-normal"> 
+                    <div class="col-lg-8 ps-0 text-center text-lg-start md-mb-10px">
+                        <ul class="footer-navbar fs-15 lh-normal">
                             <li class="nav-item active"><a href="index.html" class="nav-link ps-0">Home</a></li>
                             <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                             <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                         </ul>
-                    </div> 
+                    </div>
                     <!-- end footer menu -->
                     <!-- start copyright -->
                     <div class="col-lg-4 last-paragraph-no-margin text-center text-lg-end">
@@ -444,10 +444,10 @@
                     </div>
                     <!-- start copyright -->
                 </div>
-            </div>    
+            </div>
         </footer>
         <!-- end footer -->
-        
+
          <!-- start scroll progress -->
         <div class="scroll-progress d-none d-xxl-block">
           <a href="#" class="scroll-top" aria-label="scroll">
@@ -516,7 +516,7 @@ function sendQuote() {
         phone: document.querySelector('#quoteModal input[name="phone"]').value,
         service: document.querySelector('#quoteModal select[name="service"]').value,
         message: document.querySelector('#quoteModal textarea[name="message"]').value,
-        business__initials: "PIA",
+        business_initials: "PIA",
         random_reference_number: referenceNumber,
         business_domain: "plumbinginaustin.renbostudios.com"
     };
