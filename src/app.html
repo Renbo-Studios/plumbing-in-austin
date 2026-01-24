@@ -1,16 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/png" href="%sveltekit.assets%/favicon.png" />
-		<link rel="apple-touch-icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="theme-color" content="#2563eb" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+		<title>24/7 Emergency Plumbing Services in Austin, Texas | Don't let a leak destroy your home. Licensed Austin plumbers are on standby for immediate dispatch. Fast, reliable, and available right now.</title>
+		<meta name="description" content="Need an emergency plumber in Austin, TX? 24/7 rapid response for burst pipes, leaks, and drain cleaning. Licensed Austin plumbing experts available right now." />
 		%sveltekit.head%
-	</head>
+	
+
+<!-- ORBIT Analytics Metadata -->
+<meta name="orbit-site-id" content="x9M3F0UAqm5mOKHByyqUc">
+<meta name="orbit-site-slug" content="plumbing-in-austin">
+<meta name="orbit-site-category" content="plumbing">
+<meta name="orbit-site-location" content="Austin, Texas, USA">
+<meta name="orbit-tracking-api" content="https://plumbing-in-austin.renbo.site/api/public/track">
+
+<!-- ORBIT Custom Event Tracking -->
+<script>
+(function() {
+    // Read site metadata
+    const getMeta = (name) => {
+        const el = document.querySelector('meta[name="' + name + '"]');
+        return el ? el.getAttribute('content') : null;
+    };
+
+    const siteId = getMeta('orbit-site-id');
+    const trackingApi = getMeta('orbit-tracking-api') || '/api/public/track';
+
+    // Generate visitor ID (stored in localStorage)
+    const getVisitorId = () => {
+        let vid = localStorage.getItem('orbit_vid');
+        if (!vid) {
+            vid = 'v_' + Math.random().toString(36).substr(2, 9) + Date.now().toString(36);
+            localStorage.setItem('orbit_vid', vid);
+        }
+        return vid;
+    };
+
+    // Generate session ID (stored in sessionStorage)
+    const getSessionId = () => {
+        let sid = sessionStorage.getItem('orbit_sid');
+        if (!sid) {
+            sid = 's_' + Math.random().toString(36).substr(2, 9) + Date.now().toString(36);
+            sessionStorage.setItem('orbit_sid', sid);
+        }
+        return sid;
+    };
+
+    // Track event function
+    window.orbitTrack = function(eventType, eventName, eventData) {
+        if (!siteId) return;
+
+        const payload = {
+            event: eventType,
+            siteId: siteId,
+            pagePath: window.location.pathname,
+            pageTitle: document.title,
+            eventName: eventName || null,
+            eventData: eventData || null,
+            visitorId: getVisitorId(),
+            sessionId: getSessionId(),
+            utmSource: new URLSearchParams(window.location.search).get('utm_source'),
+            utmMedium: new URLSearchParams(window.location.search).get('utm_medium'),
+            utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign')
+        };
+
+        // Use sendBeacon for better reliability
+        if (navigator.sendBeacon) {
+            navigator.sendBeacon(trackingApi, JSON.stringify(payload));
+        } else {
+            fetch(trackingApi, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload),
+                keepalive: true
+            }).catch(() => {});
+        }
+    };
+
+    // Auto-track page views
+    window.orbitTrack('page_view');
+
+    // Auto-track CTA clicks
+    document.addEventListener('click', function(e) {
+        const target = e.target.closest('a, button');
+        if (!target) return;
+
+        // Track CTA buttons (buttons with specific classes or text)
+        if (target.tagName === 'BUTTON' ||
+            target.classList.contains('cta') ||
+            target.classList.contains('btn-primary') ||
+            target.textContent.toLowerCase().includes('get started') ||
+            target.textContent.toLowerCase().includes('contact') ||
+            target.textContent.toLowerCase().includes('call') ||
+            target.textContent.toLowerCase().includes('quote') ||
+            target.textContent.toLowerCase().includes('book')) {
+            window.orbitTrack('cta_click', target.textContent.trim().substring(0, 50), {
+                elementType: target.tagName,
+                href: target.href || null
+            });
+        }
+
+        // Track external links
+        if (target.tagName === 'A' && target.hostname !== window.location.hostname) {
+            window.orbitTrack('link_click', 'external', {
+                href: target.href,
+                text: target.textContent.trim().substring(0, 50)
+            });
+        }
+    });
+
+    // Auto-track form submissions
+    document.addEventListener('submit', function(e) {
+        const form = e.target;
+        if (form.tagName !== 'FORM') return;
+
+        // Determine form type
+        let formType = 'form_submit';
+        const action = form.action || '';
+        const formId = form.id || '';
+
+        if (action.includes('lead') || formId.includes('contact') || formId.includes('lead')) {
+            formType = 'lead_submitted';
+        }
+
+        window.orbitTrack(formType, formId || 'unnamed_form', {
+            action: action,
+            method: form.method
+        });
+    });
+
+    // Track scroll depth (25%, 50%, 75%, 100%)
+    let maxScroll = 0;
+    const scrollMilestones = [25, 50, 75, 100];
+    const trackedMilestones = new Set();
+
+    window.addEventListener('scroll', function() {
+        const scrollPercent = Math.round(
+            (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
+        );
+
+        if (scrollPercent > maxScroll) {
+            maxScroll = scrollPercent;
+            for (const milestone of scrollMilestones) {
+                if (scrollPercent >= milestone && !trackedMilestones.has(milestone)) {
+                    trackedMilestones.add(milestone);
+                    window.orbitTrack('scroll_depth', milestone + '%', { depth: milestone });
+                }
+            }
+        }
+    }, { passive: true });
+
+    // Track time on page (30s, 60s, 120s, 300s)
+    const timeMilestones = [30, 60, 120, 300];
+    const trackedTimeMilestones = new Set();
+    let pageStartTime = Date.now();
+
+    setInterval(function() {
+        const timeOnPage = Math.floor((Date.now() - pageStartTime) / 1000);
+        for (const milestone of timeMilestones) {
+            if (timeOnPage >= milestone && !trackedTimeMilestones.has(milestone)) {
+                trackedTimeMilestones.add(milestone);
+                window.orbitTrack('time_on_page', milestone + 's', { seconds: milestone });
+            }
+        }
+    }, 5000);
+})();
+</script>
+</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
