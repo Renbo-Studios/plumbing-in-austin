@@ -1,10 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Custom styles for emergency-plumbing-austin-texas */
-:root {
-    --primary: var(--color-amber-500);
-    --secondary: var(--color-zinc-500);
-}
-
-.hero-gradient {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-}
+/* Custom styles can go here if needed */
